@@ -1,0 +1,107 @@
+/* Tekn Wrapper */
+.tekn-wrap .tekn-content.container {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0
+}
+
+#hero-vvv {
+  background-color: #002855;
+  background-size: cover;
+  width: 100%;
+}
+
+#hero-vvv {
+  padding: 4rem 0 5rem;
+  position: relative;
+  display: inline-block;
+}
+
+#hero-xxv {
+  background: white;
+  height: auto;
+  padding-bottom: 60px;
+  min-height: 320px
+}
+
+.tekn-content {
+  position: relative;
+}
+
+
+svg {
+  vertical-align: middle;
+  pointer-events: none;
+  margin-top: -35px;
+  position: absolute;
+
+}
+
+.section-header {
+  text-align: center;
+  width: 66.66667%;
+  margin-left: 170px;
+}
+
+.section-header p {
+  font-size: 1.3em;
+  color: #777;
+  display: inline-block;
+  line-height: 30px;
+  font-weight: 300
+}
+
+.section-header-main {
+  margin: 0 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.section-header-main h4 {
+  background: #fff;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  padding: 0 15px;
+}
+
+#hero-vvv svg.wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.a {
+  fill: none
+}
+
+.b {
+  clip-path: url(#a)
+}
+
+.c,
+.d {
+  fill: #fff;
+  transition: all .5s ease;
+}
+
+.d {
+  opacity: 0.5;
+  isolation: isolate
+}
+
+@media only screen and (max-width:800px) {
+  #hero-vvv .tekn-content h2.hero-title {
+    font-size: 20px;
+  }
+
+  .tekn-content p.hero-description {
+    width: 100%;
+    font-size: 1em;
+  }
+}

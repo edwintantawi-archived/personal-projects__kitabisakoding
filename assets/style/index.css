@@ -1,0 +1,54 @@
+@import './wave-animation.css';
+@import './part/header.css';
+@import './part/main.css';
+@import './part/footer.css';
+
+/* font */
+@font-face {
+  font-family: Syncopate;
+  src: url(../font/Syncopate/Syncopate-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(../font/Quicksand/Quicksand-Regular.ttf);
+}
+
+/* font */
+/*
+font-family: 'Syncopate', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+/* end font */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  height: 1500px;
+}
+
+.active {
+  color: rgb(100, 100, 100) !important;
+  cursor: default;
+}
+
+.active:hover::before {
+  visibility: hidden !important;
+}

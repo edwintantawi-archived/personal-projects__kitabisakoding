@@ -1,0 +1,47 @@
+div#title {
+  background-color: #002855;
+}
+
+div#title div.container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+div#title div.container section:first-child {
+  width: 40%;
+}
+
+div#title div.container section:first-child h1 {
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 50px;
+  line-height: 50px;
+  text-shadow: 0 0 20px white;
+}
+
+div#title div.container section:first-child h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+div#title div.container section:first-child h3 q {
+  font-family: 'Syncopate', sans-serif;
+}
+
+div#title div.container section:last-child {
+  width: 40%;
+  text-align: right;
+}
+
+div#title div.container section:last-child img {
+  width: 85%;
+}
+
+/* card */
+.card {
+  border-bottom: 1px solid black;
+}
+
+/* end card */

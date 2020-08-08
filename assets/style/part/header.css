@@ -1,0 +1,195 @@
+header {
+  display: inline;
+}
+
+header nav {
+  background-color: #002855;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  line-height: 0;
+
+}
+
+header nav div.container {
+  padding: 15px 0;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+header nav div.container img {
+  height: 30px;
+  cursor: pointer;
+  align-self: center;
+}
+
+header nav div.container ul#log {
+  width: auto;
+  display: flex;
+}
+
+header nav div.container ul#navbar {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Syncopate', sans-serif;
+}
+
+header nav div.container ul li {
+  display: inline;
+  list-style: none;
+  align-self: center;
+}
+
+header nav div.container ul a {
+  text-decoration: none;
+  color: white;
+  line-height: normal;
+  position: relative;
+  font-family: 'Syncopate', sans-serif;
+}
+
+header nav div.container ul li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0px;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header nav div.container ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+header nav div.container a[id=pull] {
+  display: none;
+}
+
+header nav div.container ul li button {
+  border: none;
+  background-color: #002855;
+  border: 3px solid white;
+  color: white;
+  padding: 10px 40px;
+  font-weight: bold;
+  border-radius: 50px;
+
+  cursor: pointer;
+}
+
+header nav div.container ul li button:hover {
+  opacity: 0.5;
+}
+
+header nav div.container ul li button:last-child {
+  background-color: rgb(0, 173, 0);
+  border: 3px solid rgb(0, 173, 0);
+  margin-left: 10px;
+}
+
+/* *******************************************************RESPONSIVE******************************************************* */
+/* phone */
+@media only screen and (max-width: 850px) {
+  header nav div.container {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  header nav div.container img[alt="kita bisa koding fs"] {
+    display: none;
+  }
+
+  header nav div.container ul#log {
+    display: none;
+  }
+
+  header nav div.container ul#navbar {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+
+  header nav div.container ul:last-child {
+    border-bottom: 3px solid white;
+  }
+
+  header nav div.container ul li {
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+  }
+
+  header nav div.container ul li#navbar:first-child {
+    margin-top: 20px;
+  }
+
+  header nav div.container ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0px;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+
+  header nav div.container ul li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  nav a#pull {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 0 0 10px 0;
+  }
+
+  nav a#pull::after {
+    content: '';
+    background: url(../../img/nav-icon.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    top: 6px;
+  }
+
+  nav ul li:last-child {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav div.container ul li button {
+    width: 48%;
+  }
+
+  header nav div.container ul li button:last-child {
+    margin-left: 0px;
+  }
+
+}
