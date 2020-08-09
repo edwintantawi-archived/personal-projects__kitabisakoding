@@ -1,4 +1,86 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+.masuk,
+.daftar {
+  width: 49%;
+}
+
 header {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 15px white;
+}
+
+header a q {
+  font-family: 'Syncopate', sans-serif;
+  color: white;
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .masuk,
+  .daftar {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
   display: inline;
 }
 
@@ -8,7 +90,6 @@ header nav {
   top: 0;
   z-index: 999;
   line-height: 0;
-
 }
 
 header nav div.container {
@@ -96,11 +177,11 @@ header nav div.container ul li button:last-child {
   background-color: rgb(0, 173, 0);
   border: 3px solid rgb(0, 173, 0);
   margin-left: 10px;
-}
+} */
 
 /* *******************************************************RESPONSIVE******************************************************* */
 /* phone */
-@media only screen and (max-width: 850px) {
+/* @media only screen and (max-width: 850px) {
   header nav div.container {
     padding: 20px;
     flex-direction: column;
@@ -192,4 +273,4 @@ header nav div.container ul li button:last-child {
     margin-left: 0px;
   }
 
-}
+} */

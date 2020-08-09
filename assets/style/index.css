@@ -27,28 +27,30 @@ font-family: 'Quicksand', sans-serif;
 */
 /* end font */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: 'Quicksand', sans-serif;
-}
-
-.container {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-main {
   height: 1500px;
 }
 
-.active {
-  color: rgb(100, 100, 100) !important;
-  cursor: default;
+.bg-dark-blue {
+  background-color: #002855;
 }
 
-.active:hover::before {
-  visibility: hidden !important;
-}
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
