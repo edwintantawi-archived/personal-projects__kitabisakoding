@@ -1,27 +1,23 @@
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 main section {
-  padding: 20px 0 25px;
+  padding: 20px 0 100px;
+}
+
+main section h2 {
+  font-size: 30px;
 }
 
 
-main section#section1 div.container div.row div.card {
-  box-shadow: 0 0 10px grey;
+main section div.container img {
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  width: 100%;
 }
 
-main section#section1 div.container div.row div.card p {
-  font-size: 12px;
-  padding-top: 6px;
-  font-weight: bolder;
-}
+
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  main section#section1 div.container div.row div.card p {
-    font-size: 18px;
-  }
-
-}
+@media (min-width: 576px) {}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
@@ -29,7 +25,16 @@ main section#section1 div.container div.row div.card p {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   main section {
-    padding: 80px 0 90px;
+    padding: 70px 0 90px;
+  }
+
+  main section h2 {
+    font-size: 34px;
+  }
+
+  main section div.container img {
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    width: 80%;
   }
 }
 

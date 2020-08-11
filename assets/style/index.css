@@ -31,19 +31,16 @@ font-family: 'Quicksand', sans-serif;
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
-  overflow-x: hidden;
-  height: 9999px;
 }
 
 .title {
   font-family: 'Montserrat', sans-serif;
-
   font-weight: bolder;
+
 }
 
 .bg-dark-blue {
@@ -56,6 +53,11 @@ body {
   -webkit-animation: float 5s ease-in-out infinite;
   animation: float 5s ease-in-out infinite;
 }
+
+hr {
+  border-top: 3px solid rgb(214, 214, 214);
+}
+
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */

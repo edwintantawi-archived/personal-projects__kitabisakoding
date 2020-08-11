@@ -7,7 +7,7 @@
 }
 
 #hero-vvv {
-  padding: 6rem 0 5rem;
+  padding: 80px 50px;
   position: relative;
   display: inline-block;
 }
@@ -71,11 +71,11 @@ svg {
   }
 
   #hero-vvv {
-    padding: 3rem 0 4rem;
+    padding: 120px 0 60px;
   }
 
   #hero-vvv {
-    width: 200%;
+    width: 100%;
   }
 
   /* 
