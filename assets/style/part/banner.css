@@ -1,0 +1,47 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+div.banner {
+  color: white;
+  padding-top: 100px;
+}
+
+div.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 15px white;
+  font-size: 30px;
+}
+
+div.banner a q {
+  font-family: 'Syncopate', sans-serif;
+
+  color: white;
+  font-size: 15px;
+}
+
+/* very small */
+@media (max-width: 300px) {
+  div.banner a q {
+    font-size: 11.5px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  div.banner a q {
+    font-size: 12px;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  div.banner a q {
+    font-size: 15px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

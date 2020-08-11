@@ -1,1 +1,1 @@
-import './component/banner-head.js';
+import './component/banner-wave.js';

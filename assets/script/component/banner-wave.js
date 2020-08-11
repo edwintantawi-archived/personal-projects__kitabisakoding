@@ -1,4 +1,4 @@
-class BannerHead extends HTMLElement {
+class BannerWave extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -37,4 +37,4 @@ class BannerHead extends HTMLElement {
   }
 }
 
-customElements.define("banner-head", BannerHead);
+customElements.define("banner-wave", BannerWave);

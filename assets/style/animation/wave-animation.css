@@ -7,7 +7,7 @@
 }
 
 #hero-vvv {
-  padding: 4rem 0 5rem;
+  padding: 6rem 0 5rem;
   position: relative;
   display: inline-block;
 }
@@ -69,4 +69,21 @@ svg {
     width: 100%;
     font-size: 1em;
   }
+
+  #hero-vvv {
+    padding: 3rem 0 4rem;
+  }
+
+  #hero-vvv {
+    width: 200%;
+  }
+
+  /* 
+  #hero-vvv svg.wave {
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    overflow: hidden;
+    vertical-align: middle;
+  } */
 }
