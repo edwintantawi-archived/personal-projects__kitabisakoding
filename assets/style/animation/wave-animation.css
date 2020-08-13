@@ -71,11 +71,15 @@ svg {
   }
 
   #hero-vvv {
-    padding: 120px 0 60px;
+    padding: 30px 0 60px;
   }
 
   #hero-vvv {
     width: 100%;
+  }
+
+  svg {
+    height: 50px;
   }
 
   /* 

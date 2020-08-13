@@ -2,13 +2,18 @@
 // No media query for `xs` since this is the default in Bootstrap */
 div.banner {
   color: white;
-  padding-top: 100px;
+  padding-top: 150px;
+
 }
 
 div.banner h1 {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 15px white;
   font-size: 30px;
+}
+
+div.banner a {
+  margin-top: 80px !important;
 }
 
 div.banner a q {
@@ -30,9 +35,20 @@ div.banner a q {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  div.banner {
+    color: white;
+    padding-top: 100px;
+
+  }
+
+  div.banner a {
+    margin-top: 24px !important;
+  }
+
   div.banner a q {
     font-size: 12px;
   }
+
 
 }
 

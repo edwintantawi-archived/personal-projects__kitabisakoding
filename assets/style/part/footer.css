@@ -1,36 +1,7 @@
 footer {
-  background-color: #002855;
   color: white;
 }
 
-footer div.container section:first-child {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 55px;
-  padding-bottom: 60px;
-}
-
-footer div.container section img {
-  width: 150px;
-  cursor: pointer;
-}
-
-footer div.container section div.social-media {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
-}
-
-footer div.container section div.social-media img {
-  width: 40px;
-}
-
-footer div.container section div.social-media img:hover {
-  opacity: 0.5;
-}
-
-footer div.container section:last-child {
-  text-align: center;
-  padding: 30px 0;
-  border-top: 2px solid rgb(99, 99, 99);
+footer .container .row .about li a {
+  color: white;
 }
