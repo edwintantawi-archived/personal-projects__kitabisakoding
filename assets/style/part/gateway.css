@@ -1,0 +1,64 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+form {
+  border-radius: 5px;
+  font-size: 14px;
+  margin: -40px 0 50px;
+  box-shadow: none;
+  background-color: white;
+}
+
+.banner {
+  padding-top: 120px !important;
+}
+
+
+small {
+  color: rgb(145, 145, 145);
+}
+
+form small.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+div.container h1 {
+  color: white;
+}
+
+
+form button,
+a.back {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 770px) and (max-width: 800px) {
+  form {
+    margin: -130px 0 50px;
+  }
+}
+
+@media (min-width: 800px) {
+  form {
+    margin: -200px 0 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  form {
+    margin: -200px 0 50px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

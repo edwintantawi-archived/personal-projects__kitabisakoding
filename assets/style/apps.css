@@ -1,0 +1,87 @@
+/* font */
+@font-face {
+  font-family: Syncopate;
+  src: url(../font/Syncopate/Syncopate-Bold.ttf);
+}
+
+/* @font-face {
+  font-family: Quicksand;
+  src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+  font-size: 26px;
+}
+
+.sub-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  /* font-size: 12px; */
+}
+
+
+.bg-dark-blue {
+  background-color: #002855;
+}
+
+.floating-animation {
+  -webkit-transform: translatey(0px);
+  transform: translatey(0px);
+  -webkit-animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
+}
+
+figure {
+  border: 2px solid black;
+}
+
+hr {
+  border-top: 3px solid rgb(214, 214, 214) !important;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+    font-size: 40px;
+  }
+
+  .sub-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
