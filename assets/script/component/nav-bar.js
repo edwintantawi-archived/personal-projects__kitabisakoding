@@ -25,7 +25,7 @@ class NavBar extends HTMLElement {
                 <a class="nav-link" href="../../index.html">Home</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="../../pages/kelas">Kelas</a>
+                <a class="nav-link" href="../../pages/kelas/dashboard-kelas.html">Kelas</a>
               </li>
               <li class="nav-item ml-lg-4">
                 <a class="nav-link" href="#section3">Artikel</a>

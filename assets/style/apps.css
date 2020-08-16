@@ -46,6 +46,7 @@ body {
 }
 
 /* The alert message box */
+
 .alert {
   padding: 20px;
   background-color: #f44336;
@@ -54,6 +55,12 @@ body {
   margin-bottom: 0 !important;
   border-radius: 0 !important;
 
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+
+  z-index: 999 !important;
 }
 
 /* The close button */

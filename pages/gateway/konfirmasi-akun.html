@@ -18,13 +18,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-  <title>Masuk | KitaBisaKoding</title>
+  <title>Konfirmasi akun | KitaBisaKoding</title>
 </head>
 
 <body>
   <header>
     <info-set></info-set>
-
     <nav-bar></nav-bar>
   </header>
 
@@ -32,8 +31,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <section class="col-12 text-center" data-aos="fade-in" data-aos-duration="600">
-          <h1 class="glow title mb-1 mb-md-2">MASUK</h1>
-          <h6 class="sub-title">Selamat datang kembali, semangat dalam mencapai inpianmu</h6>
+          <h1 class="glow title mb-1 mb-md-2">KONFIRMASI AKUN</h1>
+          <h6 class="sub-title">Apakah ini benar akun kamu?</h6>
       </div>
     </div>
   </div>
@@ -45,41 +44,24 @@
         <form action="" method="post" class=" p-4" data-aos="fade-up" data-aos-duration="700">
 
           <div class="form-group">
-            <label for="username">Username / Email</label>
-            <input autocomplete="off" type="text" name="username" id="username" required class="form-control">
-            <small>Gunakan username / email yang telah terdaftar di "KitaBisaKoding"</small>
+            <label for="username">Email</label>
+            <input autocomplete="off" type="email" name="email" id="email" required class="form-control">
+            <small>Gunakan email yang telah terdaftar di "KitaBisaKoding", dan pastikan email kamu aktif</small>
           </div>
 
           <div class="form-group">
-            <label for="password">Kata sandi</label>
-            <input autocomplete="off" type="password" name="password" id="password" required class="form-control">
-            <small>Gunakan kata sandi sesuai dengan username / email yang kamu daftarkan</small>
-          </div>
-
-          <div class="form-group text-right">
-            <div class="form-check form-check-inline">
-              <input id="rememberme" class="form-check-input" type="checkbox" name="rememberme" value="true">
-              <label for="rememberme" class="form-check-label">Ingat saya ?</label>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <button type="submit" class="btn btn-warning mb-2">Masuk</button>
-            <button type="reset" class="btn btn-danger mb-2">Reset</button>
-            <a href="/index.html" class="back mb-4 mt-2">Kembali</a>
+            <button type="submit" class="btn btn-warning mt-5">Kirim Konfirmasi</button>
+            <small class="mb-2">Konfirmasi akan di kirim ke email kamu, segera cek email kamu dan lakukan
+              konfirmasi</small>
+            <a href="/pages/gateway/masuk.html" class="back mb-4 mt-2">Kembali</a>
           </div>
           <small class="center">Belum punya akun? <a href="/pages/gateway/daftar.html">Daftar</a></small>
-          <small class="center">Lupa password? <a href="/pages/gateway/konfirmasi-akun.html">Ganti password</a></small>
       </div>
-
 
       </form>
     </div>
 
   </div>
-
-
-
 
   <footer-set></footer-set>
 
