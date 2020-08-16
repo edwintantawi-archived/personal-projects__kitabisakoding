@@ -10,12 +10,21 @@ main section h2 {
 
 
 main section div.container img {
-  box-shadow: 0 0 10px rgb(83, 83, 83);
   width: 100%;
 }
 
 .profit {
   justify-content: center;
+}
+
+.mentor figure {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mentor figcaption {
+  font-size: 25px;
+  line-height: 30px;
 }
 
 
@@ -38,13 +47,6 @@ main section div.container img {
   main section h2 {
     font-size: 34px;
   }
-
-  main section div.container img {
-    box-shadow: 0 0 10px rgb(83, 83, 83);
-    width: 80%;
-  }
-
-
 
 }
 

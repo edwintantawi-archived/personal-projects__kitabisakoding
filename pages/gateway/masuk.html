@@ -12,6 +12,8 @@
   <!-- custom css -->
   <link rel="stylesheet" href="/assets/style/index.css">
   <link rel="stylesheet" href="/assets/style/part/gateway.css">
+  <link rel="stylesheet" href="/assets/style/animation/wave-animation.css">
+  <link rel="stylesheet" href="/assets/style/part/banner.css">
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -21,6 +23,8 @@
 
 <body>
   <header>
+    <info-set></info-set>
+
     <nav-bar></nav-bar>
   </header>
 
@@ -52,12 +56,18 @@
             <input autocomplete="off" type="password" name="password" id="password" required class="form-control">
             <small>Gunakan kata sandi sesuai dengan username / email yang kamu daftarkan</small>
           </div>
+
+          <div class="form-group text-right">
+            <input type="checkbox" name="rememberme" id="rememberme">
+            <label for="rememberme">Ingat saya?</label>
+          </div>
           <div class="form-group">
             <button type="submit" class="btn btn-warning mb-2">Masuk</button>
             <button type="reset" class="btn btn-danger mb-2">Reset</button>
             <a href="/index.html" class="back mb-4 mt-2">Kembali</a>
           </div>
           <small class="center">Belum punya akun? <a href="/pages/gateway/daftar.html">Daftar</a></small>
+          <small class="center">Lupa password? <a href="/pages/gateway/reset-password.html">Ganti password</a></small>
       </div>
 
 
@@ -69,51 +79,7 @@
 
 
 
-  <footer class="pt-5 pb-1 bg-dark-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-4 col-md-2">
-          <img src="/assets/img/kitaBisaKoding-txt.png" alt="" width="100%">
-        </div>
-        <div class="col-12 col-md-6 offset-0 offset-md-1 order-1 order-md-0 mt-5 mt-md-0">
-          <h5 class="ml-1"><b>About</b></h5>
-          <ul class="pl-3 about">
-            <li><b>e-Mail</b> : kitabisakoding@gmail.com</li>
-            <li><b>Location</b> : Medan, Indonesia</li>
-            <li><b>Founder</b> : <a href="https://instagram.com/wintantawi">Edwin Tantawi</a></li>
-          </ul>
-        </div>
-        <div class="col-7 offset-1 offset-md-0 col-md-3">
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <a href="#">
-                  <img src="/assets/img/social-media/wa.png" alt="whatsapps" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="#">
-                  <img src="/assets/img/social-media/fb.png" alt="facebook" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="#">
-                  <img src="/assets/img/social-media/ig.png" alt="instagram" width="100%">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-12 text-center">
-          <p>Copyright &copy; 2020 - KitaBisaKoding</p>
-        </div>
-      </div>
-
-    </div>
-  </footer>
+  <footer-set></footer-set>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

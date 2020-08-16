@@ -3,13 +3,13 @@ footer {
 }
 
 footer ul li {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 footer p {
   font-weight: 100;
   font-size: 14px;
-  opacity: .6;
+  opacity: .8;
 }
 
 footer .container .row .about li a {

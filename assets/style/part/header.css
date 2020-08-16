@@ -1,7 +1,7 @@
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
-.masuk,
-.daftar {
+a.masuk,
+a.daftar {
   width: 49%;
 }
 
@@ -13,6 +13,28 @@ header {
   left: 0;
 }
 
+header nav li#userNav {
+  display: block;
+}
+
+header nav li#userNav img {
+  cursor: pointer;
+
+}
+
+header nav li#userNav a {
+  padding: 0;
+  color: white;
+}
+
+header nav li#userNav strong {}
+
+header nav img#user {
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 50px;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -20,15 +42,12 @@ header {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  .masuk,
-  .daftar {
+  a.masuk,
+  a.daftar {
     padding-right: 40px;
     padding-left: 40px;
   }
 
-  header {
-    border-bottom: none;
-  }
 }
 
 /* // Large devices (desktops, 992px and up) */

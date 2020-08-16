@@ -3,6 +3,7 @@ class NavBar extends HTMLElement {
     this.render();
   }
 
+
   render() {
     this.innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark bg-dark-blue p-3">
@@ -21,16 +22,34 @@ class NavBar extends HTMLElement {
             <ul class="navbar-nav">
               <div class="dropdown-divider"></div>
               <li class="nav-item">
-                <a class="nav-link" href="#section1">Home</a>
+                <a class="nav-link" href="../../index.html">Home</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="#section2">Class</a>
+                <a class="nav-link" href="../../pages/kelas">Kelas</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="#section3">Article</a>
+                <a class="nav-link" href="#section3">Artikel</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="#">News & Update</a>
+                <a class="nav-link" href="#">Koran</a>
+              </li>
+
+
+              <li class="nav-item d-none justify-content-between mt-3 mt-md-0" id="gateway">
+                <a href="/pages/gateway/masuk.html" class="btn btn-outline-success  mr-md-3 ml-lg-5 masuk">Masuk</a>
+                <a href="/pages/gateway/daftar.html" class="btn btn-outline-warning daftar">Daftar</a>
+              </li>
+
+              <div class="dropdown-divider dividerTwo"></div>
+
+
+              <li class="nav-item ml-md-4 mt-2 mt-md-0 d-none" id="userNav">
+                <a href="#" class="nav-link">
+              
+                  <img id="user" src="/assets/img/social-media/user.jpg"></img>
+
+                  <strong class="d-inline d-md-none ml-2">Username</strong>
+                </a>
               </li>
 
             </ul>

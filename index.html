@@ -9,10 +9,14 @@
     content="Platform belajar koding yang mudah di pahami. Mulai karir mu bersama kami - START YOUR FUTURE HERE">
   <meta name="keywords" content="kitabisakoding, koding, coding, belajar koding, belajar pemrogaman">
   <link rel="shortcut icon" href="./assets/img/icon/kitaBisaKoding.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/assets/style/index.css">
+  <link rel="stylesheet" href="/assets/style/part/banner.css">
+  <link rel="stylesheet" href="/assets/style/part/main.css">
+  <link rel="stylesheet" href="/assets/style/animation/wave-animation.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/style/index.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <title>KitaBisaKoding</title>
 </head>
@@ -20,41 +24,8 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark-blue p-3">
-      <div class="container">
-        <a href="#" class="navbar-brand pb-1 pt-0 d-none d-md-block">
-          <img src="./assets/img/kitaBisaKoding.png" alt="kita bisa koding" width="60px">
-        </a>
-        <a href="#" class="navbar-brand pb-1 pt-0 d-block d-md-none">
-          <img src="./assets/img/kitaBisaKoding-txt.png" alt="kita bisa koding" width="60px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <div class="dropdown-divider"></div>
-            <li class="nav-item active">
-              <a class="nav-link" href="#section1">Home</a>
-            </li>
-            <li class="nav-item ml-lg-4">
-              <a class="nav-link" href="#section2">Class</a>
-            </li>
-            <li class="nav-item ml-lg-4">
-              <a class="nav-link" href="#section3">Article</a>
-            </li>
-            <li class="nav-item ml-lg-4">
-              <a class="nav-link" href="#">News & Update</a>
-            </li>
-            <li class="nav-item d-flex justify-content-between mt-3 mt-md-0">
-              <a href="./pages/gateway/masuk.html" class="btn btn-outline-success  mr-md-3 ml-lg-5 masuk">Masuk</a>
-              <a href="./pages/gateway/daftar.html" class="btn btn-outline-warning daftar">Daftar</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <info-set></info-set>
+    <nav-bar></nav-bar>
   </header>
   <!-- banner -->
   <div class="banner bg-dark-blue pb-0">
@@ -68,7 +39,7 @@
         </section>
         <section class="col-5 col-lg-4 order-md-2 order-lg-2 mb-5 mb-md-0 d-none d-md-flex" data-aos="fade-in"
           data-aos-duration="600">
-          <img src="./assets/img/kitaBisaKoding-txt.png" alt="kita bisa koding" width="100%" class="align-self-center">
+          <img src="/assets/img/kitaBisaKoding-txt.png" alt="kita bisa koding" width="100%" class="align-self-center">
         </section>
       </div>
     </div>
@@ -88,19 +59,22 @@
         </div>
         <!--  -->
         <div class="row text-center profit">
-          <figure class="col-7 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="500">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="" class="mb-3">
-            <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, voluptate.</figcaption>
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="500">
+            <img src="/assets/img/illustration/1.png" alt="" class="mb-3">
+            <figcaption>Tersedia alut belajar yang jelas, materi tersusun secara rapi serta menggunakan
+              bahasa yang mudah di mengerti</figcaption>
           </figure>
           <!--  -->
-          <figure class="col-7 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="800">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="" class="mb-3">
-            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</figcaption>
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="800">
+            <img src="/assets/img/illustration/2.png" alt="" class="mb-3">
+            <figcaption>Materi selalu di update, tersedia fasilitas <a href="#">Artikel</a> yang berisi informasi
+              penunjang pembelajaran</figcaption>
           </figure>
           <!--  -->
-          <figure class="col-7 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="1100">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="" class="mb-3">
-            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis?</figcaption>
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="1100">
+            <img src="/assets/img/illustration/3.png" alt="" class="mb-3">
+            <figcaption>Biaya? Seluruh fasilitas diberikan secara gratis tisss tisss...tanpa pungutan biaya / langganan
+            </figcaption>
           </figure>
 
         </div>
@@ -117,14 +91,81 @@
           </div>
         </div>
 
-        <div class="row text-center justify-content-center">
-          <div class="col-6 col-md-3 mb-3" data-aos="slide-up">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="">
+        <div class="row text-center">
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
           </div>
           <!--  -->
-          <div class="col-6 col-md-3 mb-3" data-aos="slide-up">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="">
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
           </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+          <div class="col-2 col-sm-1 mb-3" data-aos="slide-up">
+            <img src="/assets/img/kitaBisaKoding.jpg" alt="">
+          </div>
+
 
         </div>
         <!--  -->
@@ -141,9 +182,16 @@
           </div>
         </div>
 
-        <div class="row text-center justify-content-center">
-          <div class="col-6 col-md-3 mb-3" data-aos="slide-up">
-            <img src="./assets/img/kitaBisaKoding.jpg" alt="">
+        <div class="row text-center justify-content-center text-center">
+          <div class="col-12 col-md-5 mb-3 mentor" data-aos="slide-up">
+            <figure>
+              <img src="/assets/img/mentor/edwinTantawi.jpg" alt=""
+                style="border-radius: 50%; border: 16px solid #002855;">
+            </figure>
+            <figcaption class="mt-3">
+              <strong>Edwin Tantawi</strong> <br>
+              <small>Founder KitaBisaKoding</small>
+            </figcaption>
           </div>
 
         </div>
@@ -181,51 +229,7 @@
 
 
 
-  <footer class="pt-5 pb-1 bg-dark-blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-4 col-md-2">
-          <img src="./assets/img/kitaBisaKoding-txt.png" alt="" width="100%">
-        </div>
-        <div class="col-12 col-md-6 offset-0 offset-md-1 order-1 order-md-0 mt-5 mt-md-0">
-          <h5 class="ml-1"><b>About</b></h5>
-          <ul class="pl-3 about">
-            <li><b>e-Mail</b> : kitabisakoding@gmail.com</li>
-            <li><b>Location</b> : Medan, Indonesia</li>
-            <li><b>Founder</b> : <a href="https://instagram.com/wintantawi">Edwin Tantawi</a></li>
-          </ul>
-        </div>
-        <div class="col-7 offset-1 offset-md-0 col-md-3">
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <a href="#">
-                  <img src="./assets/img/social-media/wa.png" alt="whatsapps" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="#">
-                  <img src="./assets/img/social-media/fb.png" alt="facebook" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="#">
-                  <img src="./assets/img/social-media/ig.png" alt="instagram" width="100%">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-12 text-center">
-          <p>Copyright &copy; 2020 - KitaBisaKoding</p>
-        </div>
-      </div>
-
-    </div>
-  </footer>
+  <footer-set></footer-set>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -239,7 +243,7 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
   <!-- AOS LIBRARY -->
-  <script src="./assets/script/index.js" type="module"></script>
+  <script src="/assets/script/index.js" type="module"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();

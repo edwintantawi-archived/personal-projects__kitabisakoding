@@ -1,5 +1,11 @@
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
+/* font */
+@font-face {
+  font-family: Syncopate;
+  src: url(../../font/Syncopate/Syncopate-Bold.ttf);
+}
+
 div.banner {
   color: white;
   padding-top: 150px;
