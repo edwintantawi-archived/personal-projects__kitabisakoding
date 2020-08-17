@@ -1,4 +1,4 @@
-class BannerWave extends HTMLElement {
+class UiWave extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -37,4 +37,4 @@ class BannerWave extends HTMLElement {
   }
 }
 
-customElements.define("banner-wave", BannerWave);
+customElements.define("ui-wave", UiWave);

@@ -1,4 +1,4 @@
-class FooterSet extends HTMLElement {
+class UiFooter extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -55,4 +55,4 @@ class FooterSet extends HTMLElement {
   }
 }
 
-customElements.define("footer-set", FooterSet);
+customElements.define("ui-footer", UiFooter);

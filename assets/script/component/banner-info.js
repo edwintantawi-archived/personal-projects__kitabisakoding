@@ -1,4 +1,4 @@
-class InfoSet extends HTMLElement {
+class BannerInfo extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -15,4 +15,4 @@ class InfoSet extends HTMLElement {
   }
 }
 
-customElements.define("info-set", InfoSet);
+customElements.define("banner-info", BannerInfo);

@@ -18,13 +18,18 @@ main section div.container img {
 }
 
 .mentor figure {
-  width: 50%;
+  width: 35%;
   margin: 0 auto;
 }
 
+.mentor figure img {
+  border-radius: 50%;
+  border: 7px solid #002855;
+}
+
 .mentor figcaption {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 
@@ -46,6 +51,20 @@ main section div.container img {
 
   main section h2 {
     font-size: 34px;
+  }
+
+  .mentor figure {
+    width: 45%;
+  }
+
+  .mentor figure img {
+    border-radius: 50%;
+    border: 10px solid #002855;
+  }
+
+  .mentor figcaption {
+    font-size: 25px;
+    line-height: 30px;
   }
 
 }

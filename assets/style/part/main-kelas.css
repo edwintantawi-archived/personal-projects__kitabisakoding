@@ -1,21 +1,7 @@
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
-.list-kelas {
-  border-radius: 10px !important;
-  font-size: 14px;
-  margin: -40px 0 50px;
-  box-shadow: none;
-  background-color: white;
-  padding: 10px 0px 30px;
-  color: white;
-}
 
-.card {
-  border: none !important;
-}
-
-
-div.kelas {
+.kelas div.card {
   color: black !important;
   /* padding: 15px !important; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -24,71 +10,37 @@ div.kelas {
   margin-bottom: 0 !important;
 }
 
-
-div.kelas:hover {
+.kelas div.card:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 
+.kelas a {
+  text-decoration: none !important;
+}
+
+.kelas div.card img {
+  border-radius: 10px !important;
+  margin-bottom: 10px;
 }
 
 .text h3 {
   font-size: 18px !important;
   line-height: 20px !important;
-  margin-bottom: 3px !important;
+  margin-bottom: 5px !important;
+  text-decoration: none !important;
 }
 
 .text p {
   font-size: 11px;
+  text-decoration: none !important;
+
 }
 
 .badge {
   color: white !important;
 }
-
-
-
-.card-header {
-  background-color: #002855 !important;
-  color: white;
-  padding: 3 !important;
-  border-top-right-radius: 10px !important;
-  border-top-left-radius: 10px !important;
-  padding-bottom: 2px !important;
-}
-
-.closed {
-  background-color: #002855 !important;
-  height: 10px;
-  border-bottom-right-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
-  margin-bottom: 20px;
-  margin-top: -24px;
-}
-
-.card-body {
-  border: 1px solid black;
-}
-
-.parent {}
-
-.child {
-  background-color: #004ea7 !important;
-}
-
-.card-header a.nav-link {
-  color: white;
-  padding: 0;
-  font-size: 15px;
-}
-
-
-
-
-
-.banner {
-  padding-top: 120px !important;
-}
-
 
 small {
   color: rgb(145, 145, 145);

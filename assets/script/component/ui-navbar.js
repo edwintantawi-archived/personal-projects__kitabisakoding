@@ -1,10 +1,44 @@
-class NavBar extends HTMLElement {
+class UiNavbar extends HTMLElement {
   connectedCallback() {
+    this.page = this.getAttribute('data-page');
+
     this.render();
   }
 
 
   render() {
+    // active pages
+    let activeT1, activeT2, activeT3, activeT4;
+    switch (this.page) {
+      case 't1':
+        activeT1 = 'active';
+        activeT2 = 'nonActive';
+        activeT3 = 'nonActive';
+        activeT4 = 'nonActive';
+        break;
+      case 't2':
+        activeT1 = 'nonActive';
+        activeT2 = 'active';
+        activeT3 = 'nonActive';
+        activeT4 = 'nonActive';
+        break;
+      case 't3':
+        activeT1 = 'nonActive';
+        activeT2 = 'nonActive';
+        activeT3 = 'active';
+        activeT4 = 'nonActive';
+        break;
+      case 't4':
+        activeT1 = 'nonActive';
+        activeT2 = 'nonActive';
+        activeT3 = 'nonActive';
+        activeT4 = 'active';
+        break;
+
+      default:
+        break;
+    }
+
     this.innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark bg-dark-blue p-3">
         <div class="container">
@@ -22,16 +56,16 @@ class NavBar extends HTMLElement {
             <ul class="navbar-nav">
               <div class="dropdown-divider"></div>
               <li class="nav-item">
-                <a class="nav-link" href="../../index.html">Home</a>
+                <a class="nav-link ${activeT1}" href="../../index.html">Home</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="../../pages/kelas/dashboard-kelas.html">Kelas</a>
+                <a class="nav-link ${activeT2}" href="../../pages/kelas/dashboard-kelas.html">Kelas</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="#section3">Artikel</a>
+                <a class="nav-link ${activeT3}" href="#">Artikel</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link" href="#">Koran</a>
+                <a class="nav-link ${activeT4}" href="#">Surat Kabar</a>
               </li>
 
 
@@ -60,4 +94,4 @@ class NavBar extends HTMLElement {
   }
 }
 
-customElements.define("nav-bar", NavBar);
+customElements.define("ui-navbar", UiNavbar);

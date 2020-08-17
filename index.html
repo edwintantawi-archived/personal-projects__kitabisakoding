@@ -12,8 +12,9 @@
 
   <link rel="stylesheet" href="/assets/style/index.css">
   <link rel="stylesheet" href="/assets/style/part/banner.css">
-  <link rel="stylesheet" href="/assets/style/part/main.css">
+  <link rel="stylesheet" href="/assets/style/part/main-index.css">
   <link rel="stylesheet" href="/assets/style/animation/wave-animation.css">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -23,9 +24,9 @@
 
 <body>
 
-  <info-set></info-set>
+  <banner-info></banner-info>
   <header>
-    <nav-bar></nav-bar>
+    <ui-navbar data-page="t1"></ui-navbar>
   </header>
   <!-- banner -->
   <div class="banner bg-dark-blue pb-0">
@@ -44,7 +45,7 @@
       </div>
     </div>
   </div>
-  <banner-wave></banner-wave>
+  <ui-wave></ui-wave>
 
   <!-- end banner -->
   <main>
@@ -59,19 +60,19 @@
         </div>
         <!--  -->
         <div class="row text-center profit">
-          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="500">
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-5 " data-aos="slide-up" data-aos-duration="500">
             <img src="/assets/img/illustration/1.png" alt="" class="mb-3">
             <figcaption>Tersedia alut belajar yang jelas, materi tersusun secara rapi serta menggunakan
               bahasa yang mudah di mengerti</figcaption>
           </figure>
           <!--  -->
-          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="800">
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-5 " data-aos="slide-up" data-aos-duration="800">
             <img src="/assets/img/illustration/2.png" alt="" class="mb-3">
             <figcaption>Materi selalu di update, tersedia fasilitas <a href="#">Artikel</a> yang berisi informasi
               penunjang pembelajaran</figcaption>
           </figure>
           <!--  -->
-          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-4 " data-aos="slide-up" data-aos-duration="1100">
+          <figure class="col-9 col-sm-7 col-md-3 col-lg-3 mb-5 " data-aos="slide-up" data-aos-duration="1100">
             <img src="/assets/img/illustration/3.png" alt="" class="mb-3">
             <figcaption>
               Biaya?
@@ -188,8 +189,7 @@
         <div class="row text-center justify-content-center text-center">
           <div class="col-12 col-md-5 mb-3 mentor" data-aos="slide-up">
             <figure>
-              <img src="/assets/img/mentor/edwinTantawi.jpg" alt=""
-                style="border-radius: 50%; border: 16px solid #002855;">
+              <img src="/assets/img/mentor/edwinTantawi.jpg" alt="">
             </figure>
             <figcaption class="mt-3">
               <strong>Edwin Tantawi</strong> <br>
@@ -222,17 +222,7 @@
     </section>
   </main>
 
-
-
-
-
-
-
-
-
-
-
-  <footer-set></footer-set>
+  <ui-footer></ui-footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

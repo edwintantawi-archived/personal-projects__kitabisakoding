@@ -81,13 +81,4 @@ svg {
   svg {
     height: 50px;
   }
-
-  /* 
-  #hero-vvv svg.wave {
-    position: absolute;
-    bottom: -125px;
-    left: 0;
-    overflow: hidden;
-    vertical-align: middle;
-  } */
 }

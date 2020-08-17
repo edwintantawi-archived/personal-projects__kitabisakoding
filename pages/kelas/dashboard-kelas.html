@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/assets/style/index.css">
   <link rel="stylesheet" href="/assets/style/animation/wave-animation.css">
   <link rel="stylesheet" href="/assets/style/part/banner.css">
-  <link rel="stylesheet" href="/assets/style/part/kelas.css">
+  <link rel="stylesheet" href="/assets/style/part/main-kelas.css">
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -24,9 +24,9 @@
 
 <body>
   <header>
-    <info-set></info-set>
+    <banner-info></banner-info>
 
-    <nav-bar></nav-bar>
+    <ui-navbar data-page="t2"></ui-navbar>
   </header>
 
   <div class="banner bg-dark-blue pb-0">
@@ -38,429 +38,96 @@
       </div>
     </div>
   </div>
-  <banner-wave></banner-wave>
+  <ui-wave></ui-wave>
 
-  <div class="container mt-5">
+  <div class="container mt-3 mb-5 up" data-aos="slide-up" data-aos-duration="700">
     <div class="row justify-content-center">
-      <div class="col-12">
-        <section class="list-kelas">
-          <div class="container p-0 p-md-4">
-            <div class="col-12 p-0 p-md-0">
-
-              <div id="webdev" role="tablist" aria-multiselectable="true">
-                <div class="card mb-4 ">
-                  <div class="card-header" role="tab" id="section1HeaderId">
-                    <h5 class="mb-0">
-                      <a data-toggle="collapse" data-parent="#webdev" href="#section1ContentId" aria-expanded="true"
-                        aria-controls="section1ContentId" class="nav-link">
-                        FrontEnd Web Dev
-                      </a>
-                    </h5>
-                  </div>
-                  <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
-                    <div class="card-body parent">
-                      <div class="row">
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end card -->
-                    </div>
-                  </div>
+      <!-- card -->
+      <div class="col-sm-4 col-8 p-1 p-lg-3 mb-2 kelas">
+        <a href="#">
+          <div class="card container-fluid p-3">
+            <div class="row justify-content-center">
+              <div class="col-12 mb-2">
+                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
+              </div>
+              <div class="col-12 d-flex flex-column justify-content-between">
+                <div class="text">
+                  <h3><strong>FrontEnd Web Developer</strong></h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing
+                    elit. Rerum, facere.</p>
+                </div>
+                <div class="category w-100 text-right">
+                  <div class="badge bg-success">Pemula</div>
+                  <div class="badge bg-primary">Menegah</div>
+                  <div class="badge bg-warning">Profesional</div>
                 </div>
               </div>
-              <div class="closed"></div>
-
-              <!-- backend -->
-              <div id="webdev" role="tablist" aria-multiselectable="true">
-                <div class="card mb-4 ">
-                  <div class="card-header" role="tab" id="section2HeaderId">
-                    <h5 class="mb-0">
-                      <a data-toggle="collapse" data-parent="#webdev" href="#section2ContentId" aria-expanded="true"
-                        aria-controls="section2ContentId" class="nav-link">
-                        BackEnd Web Dev
-                      </a>
-                    </h5>
-                  </div>
-                  <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
-                    <div class="card-body parent">
-                      <div class="row">
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end card -->
-                        <!-- card -->
-                        <div class="col-sm-4 col-6 mb-0 p-1 p-lg-3 pt-0 pb-0">
-                          <div class="card container-fluid kelas p-2 p-sm-3">
-                            <div class="row justify-content-center">
-                              <div class="col-12 mb-2">
-                                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
-                              </div>
-                              <div class="col-12 d-flex flex-column justify-content-between">
-                                <div class="text">
-                                  <h3><strong>HTML 5</strong></h3>
-                                  <p>Lorem ipsum dolor sit amet
-                                    consectetur adipisicing
-                                    elit. Rerum, facere.</p>
-                                </div>
-                                <div class="category w-100 text-right">
-                                  <div class="badge bg-warning">Script</div>
-                                  <!-- <div class="badge bg-primary">Framemwork / library</div>
-                                  <div class="badge bg-secondary">Tools</div>
-                                  <div class="badge bg-success">Programming</div> -->
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end card -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="closed"></div>
-              <!-- end backend -->
-
-              <!-- android -->
-              <!-- androiddev -->
-              <div id="" role="tablist" aria-multiselectable="true">
-                <div class="card mb-4 ">
-                  <div class="card-header" role="tab" id="section3HeaderId">
-                    <h5 class="mb-0">
-                      <a data-toggle="collapse" data-parent="#androiddev" href="#section3ContentId" aria-expanded="true"
-                        aria-controls="section3ContentId" class="nav-link">
-                        ANDROID DEVELOPER - COMMING SOON
-                      </a>
-                    </h5>
-                  </div>
-                  <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
-                    <!-- Language -->
-                    <div class="card-body">
-                      <div id="language" role="tablist" aria-multiselectable="true">
-                        <div class="card mb-4 ">
-                          <div class="card-header" role="tab" id="section2-1HeaderId">
-                            <h5 class="mb-0">
-                              <a data-toggle="collapse" data-parent="#language" href="#section2-1ContentId"
-                                aria-expanded="true" aria-controls="section2-1ContentId" class="nav-link">
-                                Language
-                              </a>
-                            </h5>
-                          </div>
-                          <div id="section2-1ContentId" class="collapse in" role="tabpanel"
-                            aria-labelledby="section2-1HeaderId">
-                            <div class="card-body">
-                              Section 1 content
-                            </div>
-                          </div>
-                        </div>
-                        <!-- end Language -->
-
-                        <!-- android -->
-                        <div id="android" role="tablist" aria-multiselectable="true">
-                          <div class="card mb-4 ">
-                            <div class="card-header" role="tab" id="section2-2HeaderId">
-                              <h5 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#android" href="#section2-2ContentId"
-                                  aria-expanded="true" aria-controls="section2-2ContentId" class="nav-link">
-                                  Android
-                                </a>
-                              </h5>
-                            </div>
-                            <div id="section2-2ContentId" class="collapse in" role="tabpanel"
-                              aria-labelledby="section2-2HeaderId">
-                              <div class="card-body">
-                                Section 1 content
-                              </div>
-                            </div>
-                          </div>
-                          <!-- end android -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="closed"></div>
-              <!-- end android -->
-        </section>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- end card -->
+      <!-- card -->
+      <div class="col-sm-4 col-8 p-1 p-lg-3 mb-2 kelas">
+        <a href="#">
+          <div class="card container-fluid p-3">
+            <div class="row justify-content-center">
+              <div class="col-12 mb-2">
+                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
+              </div>
+              <div class="col-12 d-flex flex-column justify-content-between">
+                <div class="text">
+                  <h3><strong>BackEnd Web Developer</strong></h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing
+                    elit. Rerum, facere.</p>
+                </div>
+                <div class="category w-100 text-right">
+                  <div class="badge bg-success">Pemula</div>
+                  <div class="badge bg-primary">Menegah</div>
+                  <div class="badge bg-warning">Profesional</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- end card -->
+      <!-- card -->
+      <div class="col-sm-4 col-8 p-1 p-lg-3 mb-2 kelas">
+        <a href="#">
+          <div class="card container-fluid p-3">
+            <div class="row justify-content-center">
+              <div class="col-12 mb-2">
+                <img src="/assets/img/kitaBisaKoding-long.png" alt="" width="100%">
+              </div>
+              <div class="col-12 d-flex flex-column justify-content-between">
+                <div class="text">
+                  <h3><strong>Android Developer</strong></h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing
+                    elit. Rerum, facere.</p>
+                </div>
+                <div class="category w-100 text-right">
+                  <div class="badge bg-success">Pemula</div>
+                  <div class="badge bg-primary">Menegah</div>
+                  <div class="badge bg-warning">Profesional</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- end card -->
     </div>
   </div>
-  </div>
-  </div>
 
 
 
 
-  <footer-set></footer-set>
+
+  <ui-footer></ui-footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
