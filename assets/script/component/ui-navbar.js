@@ -8,31 +8,46 @@ class UiNavbar extends HTMLElement {
 
   render() {
     // active pages
-    let activeT1, activeT2, activeT3, activeT4;
+    let activeT1, activeT2, activeT3, activeT4, activeT5;
     switch (this.page) {
       case 't1':
         activeT1 = 'active';
         activeT2 = 'nonActive';
         activeT3 = 'nonActive';
         activeT4 = 'nonActive';
+        activeT5 = 'nonActive';
+
         break;
       case 't2':
         activeT1 = 'nonActive';
         activeT2 = 'active';
         activeT3 = 'nonActive';
         activeT4 = 'nonActive';
+        activeT5 = 'nonActive';
+
         break;
       case 't3':
         activeT1 = 'nonActive';
         activeT2 = 'nonActive';
         activeT3 = 'active';
         activeT4 = 'nonActive';
+        activeT5 = 'nonActive';
+
         break;
       case 't4':
         activeT1 = 'nonActive';
         activeT2 = 'nonActive';
         activeT3 = 'nonActive';
         activeT4 = 'active';
+        activeT5 = 'nonActive';
+
+        break;
+      case 't5':
+        activeT1 = 'nonActive';
+        activeT2 = 'nonActive';
+        activeT3 = 'nonActive';
+        activeT4 = 'nonAktif';
+        activeT5 = 'active';
         break;
 
       default:
@@ -42,10 +57,10 @@ class UiNavbar extends HTMLElement {
     this.innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark bg-dark-blue p-3">
         <div class="container">
-          <a href="#" class="navbar-brand pb-1 pt-0 d-none d-md-block">
+          <a href="/index.html" class="navbar-brand pb-1 pt-0 d-none d-md-block">
             <img src="/assets/img/kitaBisaKoding.png" alt="kita bisa koding" width="60px">
           </a>
-          <a href="#" class="navbar-brand pb-1 pt-0 d-block d-md-none">
+          <a href="/index.html" class="navbar-brand pb-1 pt-0 d-block d-md-none">
             <img src="/assets/img/kitaBisaKoding-txt.png" alt="kita bisa koding" width="60px">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,16 +71,19 @@ class UiNavbar extends HTMLElement {
             <ul class="navbar-nav">
               <div class="dropdown-divider"></div>
               <li class="nav-item">
-                <a class="nav-link ${activeT1}" href="../../index.html">Home</a>
+                <a class="nav-link ${activeT1}" href="/index.html">Home</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link ${activeT2}" href="../../pages/kelas/dashboard-kelas.html">Kelas</a>
+                <a class="nav-link ${activeT2}" href="/pages/kelas/dashboard-kelas.html">Kelas</a>
               </li>
               <li class="nav-item ml-lg-4">
                 <a class="nav-link ${activeT3}" href="#">Artikel</a>
               </li>
               <li class="nav-item ml-lg-4">
                 <a class="nav-link ${activeT4}" href="#">Surat Kabar</a>
+              </li>
+              <li class="nav-item ml-lg-4">
+                <a class="nav-link ${activeT5}" href="#">Komunitas</a>
               </li>
 
 

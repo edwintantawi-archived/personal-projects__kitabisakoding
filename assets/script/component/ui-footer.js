@@ -34,7 +34,7 @@ class UiFooter extends HTMLElement {
                 </a>
               </div>
               <div class="col-4">
-                <a href="#">
+                <a href="https://instagram.com/kitabisakoding" target="_blank">
                   <img src="/assets/img/social-media/ig.png" alt="instagram" width="100%">
                 </a>
               </div>

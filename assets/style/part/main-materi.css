@@ -26,15 +26,27 @@
 }
 
 .text h3 {
-  font-size: 18px !important;
+  font-size: 20px !important;
   line-height: 20px !important;
   margin-bottom: 5px !important;
   text-decoration: none !important;
 }
 
 .text p {
-  font-size: 11px;
+  font-size: 16px;
   text-decoration: none !important;
+}
+
+.materi div.card {
+
+  margin-bottom: 0 !important;
+
+  color: black !important;
+  /* padding: 15px !important; */
+  box-shadow: none !important;
+  border: none;
+  border-radius: 10px !important;
+
 }
 
 
@@ -45,7 +57,6 @@
 small {
   color: rgb(145, 145, 145);
 }
-
 
 
 /* badge info class */
@@ -75,6 +86,34 @@ small {
 
 /* end badge info class */
 
+/* materi card */
+div.text a {
+  text-decoration: none;
+  color: black;
+}
+
+.materi-card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  transition: .1s;
+  margin-bottom: 15px;
+}
+
+.materi-card h3 {
+  margin: 0 !important;
+}
+
+.materi-card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* end materi card */
+
+
+
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
@@ -92,11 +131,11 @@ small {
   }
 
   .text h3 {
-    font-size: 21px !important;
+    font-size: 22px !important;
   }
 
   .text p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .card-header a.nav-link {

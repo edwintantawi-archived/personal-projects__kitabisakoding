@@ -75,6 +75,8 @@ body {
   transition: 0.3s;
 }
 
+
+
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
@@ -88,6 +90,17 @@ div.up {
   margin-top: -80px !important;
 }
 
+div.materi.up {
+  margin-top: 0px !important;
+}
+
+.btn {
+  color: white !important;
+}
+
+img[alt="title-image"] {
+  width: 50%;
+}
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
@@ -108,12 +121,27 @@ div.up {
   div.up {
     margin-top: -140px !important;
   }
+
+  div.materi.up {
+    margin-top: -140px !important;
+  }
+
+  img[alt="title-image"] {
+    width: 25%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 800px) {
   div.up {
     margin-top: -75px !important;
   }
+
+  div.materi.up {
+    margin-top: -75px !important;
+  }
+
+
+
 }
 
 /* // Large devices (desktops, 992px and up) */
