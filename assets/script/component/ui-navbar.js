@@ -74,7 +74,7 @@ class UiNavbar extends HTMLElement {
                 <a class="nav-link ${activeT1}" href="/index.html">Home</a>
               </li>
               <li class="nav-item ml-lg-4">
-                <a class="nav-link ${activeT2}" href="/pages/kelas/dashboard-kelas.html">Kelas</a>
+                <a class="nav-link ${activeT2}" href="/pages/kelas/kelas.html">Kelas</a>
               </li>
               <li class="nav-item ml-lg-4">
                 <a class="nav-link ${activeT3}" href="#">Artikel</a>

@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-weight: 500 !important;
 }
 
 .title {
@@ -28,7 +28,7 @@ body {
 
 .sub-title {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   /* font-size: 12px; */
 }
@@ -102,6 +102,37 @@ img[alt="title-image"] {
   width: 50%;
 }
 
+
+/* badge info class */
+.badge {
+  color: white;
+}
+
+.tools {
+  background-color: rgb(99, 99, 99);
+}
+
+.framework {
+  background-color: #c71df1;
+}
+
+.library {
+  background-color: #11e93f;
+}
+
+.html {
+  background-color: #EB5830;
+}
+
+.javascript {
+  background-color: #F1DA1C;
+}
+
+.css {
+  background-color: #117CC0;
+}
+
+/* end badge info class */
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 

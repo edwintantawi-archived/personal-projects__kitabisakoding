@@ -46,34 +46,26 @@ small {
   color: rgb(145, 145, 145);
 }
 
-
-
-/* badge info class */
-.tools {
-  background-color: rgb(99, 99, 99);
+.roadmap {
+  color: rgb(224, 224, 224);
+  font-size: 13px;
 }
 
-.framework {
-  background-color: #c71df1;
+.roadmap a {
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+  transition: 0.3s;
 }
 
-.library {
-  background-color: #11e93f;
+.roadmap a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(187, 187, 187);
 }
 
-.html {
-  background-color: #EB5830;
-}
 
-.javascript {
-  background-color: #F1DA1C;
-}
 
-.css {
-  background-color: #117CC0;
-}
 
-/* end badge info class */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
@@ -102,9 +94,6 @@ small {
   .card-header a.nav-link {
     font-size: 20px;
   }
-
-
-
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
