@@ -9,6 +9,10 @@
   font-size: 30px;
 }
 
+.doc h2:first-child {
+  margin-top: 0;
+}
+
 .doc h3 {
   font-size: 22px;
 }
@@ -29,7 +33,7 @@
 }
 
 .doc li {
-  margin-bottom: 8px;
+  margin: 4px 0;
 }
 
 .frame {
