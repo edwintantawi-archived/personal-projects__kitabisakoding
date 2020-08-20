@@ -17,8 +17,14 @@
 }
 
 .doc small {
-  color: rgb(145, 145, 145);
+  color: rgb(77, 77, 77);
+  font-size: 14px;
 
+}
+
+.doc ol,
+.doc ul {
+  padding-left: 20px;
 }
 
 .frame {
@@ -41,6 +47,11 @@
 
   .doc h3 {
     font-size: 28px;
+  }
+
+  .doc ol,
+  .doc ul {
+    padding-left: 40px;
   }
 }
 

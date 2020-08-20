@@ -17,7 +17,7 @@ class UiFooter extends HTMLElement {
           <ul class="pl-3 about">
             <li><b>Founder</b> : <a href="https://instagram.com/wintantawi">Edwin Tantawi</a></li>
             <li><b>Location</b> : Medan, Indonesia</li>
-            <li><b>e-Mail</b> : kitabisakoding@gmail.com</li>
+            <li><b>e-Mail</b> : <a href="mailto:kitabisakoding@gmail.com" target="_blank">kitabisakoding@gmail.com</a></li>
           </ul>
         </div>
         <div class="col-7 offset-1 offset-md-0 col-md-3">
