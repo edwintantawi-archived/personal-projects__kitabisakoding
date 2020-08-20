@@ -5,6 +5,7 @@
 }
 
 .doc h2 {
+  margin-top: 50px;
   font-size: 30px;
 }
 
@@ -25,6 +26,10 @@
 .doc ol,
 .doc ul {
   padding-left: 20px;
+}
+
+.doc li {
+  margin-bottom: 8px;
 }
 
 .frame {

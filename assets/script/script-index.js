@@ -1,3 +1,4 @@
+import './component/ui-navbar.js';
 let user = false;
 
 let accountMode = false;

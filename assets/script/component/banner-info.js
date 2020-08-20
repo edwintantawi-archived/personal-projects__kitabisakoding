@@ -8,8 +8,7 @@ class BannerInfo extends HTMLElement {
     this.innerHTML = `
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      Website is Under Build, all features in here doesn't works | Website ini dalam proses pembuatan, semua fitur di
-      sini tidak dapat digunakan
+      Website ini dalam proses pengenbangan, sebagian fitur disini tidak dapat digunakan, kedepannya akan segera di perbaiki, Terimakasih
     </div>
     `;
   }

@@ -76,16 +76,8 @@ class UiNavbar extends HTMLElement {
               <li class="nav-item ml-lg-4">
                 <a class="nav-link ${activeT2}" href="/pages/kelas/kelas.html">Kelas</a>
               </li>
-              <li class="nav-item ml-lg-4">
-                <a class="nav-link ${activeT3}" href="#">Artikel</a>
-              </li>
-              <li class="nav-item ml-lg-4">
-                <a class="nav-link ${activeT4}" href="#">Surat Kabar</a>
-              </li>
-              <li class="nav-item ml-lg-4">
-                <a class="nav-link ${activeT5}" href="#">Komunitas</a>
-              </li>
-
+    
+          
 
               <li class="nav-item d-none justify-content-between mt-3 mt-md-0" id="gateway">
                 <a href="/pages/gateway/masuk.html" class="btn btn-outline-success  mr-md-3 ml-lg-5 masuk">Masuk</a>
@@ -113,3 +105,15 @@ class UiNavbar extends HTMLElement {
 }
 
 customElements.define("ui-navbar", UiNavbar);
+
+{
+  /* <li class="nav-item ml-lg-4">
+  <a class="nav-link ${activeT3} disable" href="#">Artikel</a>
+  </li>
+  <li class="nav-item ml-lg-4">
+  <a class="nav-link ${activeT4}" href="#">Surat Kabar</a>
+  </li>
+  <li class="nav-item ml-lg-4">
+  <a class="nav-link ${activeT5}" href="#">Komunitas</a>
+  </li> */
+}
