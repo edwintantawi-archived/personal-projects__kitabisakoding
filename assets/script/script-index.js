@@ -1,3 +1,13 @@
+let user = false;
+
+let accountMode = false;
+
+const userNav = document.querySelector('#userNav');
+const gateway = document.querySelector('#gateway');
+const dividerTwo = document.querySelector('.dividerTwo');
+const bannerRegisterButton = document.querySelector('a.btn.btn-warning');
+const bannerAds = document.querySelector('#ads');
+
 const userStatus = user => {
   if (user) {
     userNav.classList.add('d-block');
