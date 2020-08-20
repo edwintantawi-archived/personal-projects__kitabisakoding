@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Platform belajar koding yang mudah di pahami. Mulai karir mu bersama kami - START YOUR FUTURE HERE">
+  <meta name="keywords" content="kitabisakoding, koding, coding, belajar koding, belajar pemrogaman html html5">
+  <link rel="shortcut icon" href="/assets/img/icon/kitaBisaKoding.ico" type="image/x-icon">
+  <!-- custom css -->
+  <link rel="stylesheet" href="/assets/style/index.css">
+  <link rel="stylesheet" href="/assets/style/animation/wave-animation.css">
+  <link rel="stylesheet" href="/assets/style/part/banner.css">
+  <link rel="stylesheet" href="/assets/style/part/main-doc.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <title>Pengenalan HTML5 | FrontEnd Web Dev</title>
+</head>
+
+<body>
+  <header>
+    <banner-info></banner-info>
+
+    <ui-navbar data-page="t2"></ui-navbar>
+  </header>
+
+  <div class="banner bg-dark-blue pb-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <section class="col-12 text-center" data-aos="fade-in" data-aos-duration="600">
+          <img src="/assets/img/banner-kelas/frontend/html.png" alt="title-image">
+          <h1 class="glow title mb-1 mb-md-2">Struktur HTML 5</h1>
+          <h6 class="sub-title">
+            FrontEnd Web Developer | HTML 5
+          </h6>
+      </div>
+    </div>
+  </div>
+  <ui-wave></ui-wave>
+
+  <div class="container mb-5 doc">
+    <div class="row">
+      <div class="col-12">
+        <article>
+
+          <h2 class="">Struktur HTML 5</h2>
+          <p>
+            Kita akan kupas tuntas struktur dasar dokumen HTML 5, serta best practice nya. <br>
+            <small>kita akan mulai praktik, silahkan siapkan yang di perlukan yang tertera apa <a
+                href="/pages/kelas/frontend/intro/doc-frontend.html">Intro</a></small>
+          </p>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba(255%2C255%2C255%2C1)&t=one-dark&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=61px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Source%20Code%20Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C!DOCTYPE%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%2520%2520%253Chead%253E%250A%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522UTF-8%2522%253E%250A%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1.0%2522%253E%250A%2520%2520%2520%2520%253Ctitle%253ETitle%2520pada%2520Tab%253C%252Ftitle%253E%250A%2520%2520%253C%252Fhead%253E%250A%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%253C!--%2520konten%2520website%2520--%253E%250A%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E"
+            style="width: 689px; height: 277px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <p>Perhatikan kode HTML di atas, itu merupakan beberapa tag yang wajib di gunakan pada HTML 5, mari kita
+            kupas..</p>
+          <h4>Tipe Dokumen</h4>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba(255%2C255%2C255%2C1)&t=one-dark&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=61px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Source%20Code%20Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C!DOCTYPE%2520html%253E"
+            style="width: 193px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <p>Sebelum menuliskan kode HTML 5 sebaiknya kita mendefenisikan tipe dokumen, agar browser dapat mengetahui
+            bahwa file ini adalah HTML 5, maka browser akan memproses dengan cara HTML 5. Dengan cara menuliskan
+            <code>!DOCTYPE</code> dengan <code>html</code></p>
+
+          <h4>html</h4>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba(255%2C255%2C255%2C1)&t=one-dark&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=61px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Source%20Code%20Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Chtml%2520lang%253D%2522en%2522%253E%250A%250A%253C%252Fhtml%253E"
+            style="width: 202px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <p>setelah kita mendefenisikan tipe dokumen, kita menuliskan tag <code>html</code> pada tag ini akan menjadi
+            root/ dasar dari seluruh element HTML kita. <br>
+            terus yang berada pada tag pembuka html itu apa?
+          </p>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba(255%2C255%2C255%2C1)&t=one-dark&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=61px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Source%20Code%20Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Chtml%2520lang%253D%2522en%2522%253E"
+            style="width: 202px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <p>Itu adalah attribut, setiap element html memiliki attribut nya masing masing, dan ada yang sama. Bagian
+            attribut akan dijelaskan pada materi yang berbeda. <br>
+            attribut yang digunakan pada tag <code>html</code> kali ini adalah <code>lang</code> atau <q>Language</q>
+            (Bahasa), disini attribut itu menjelaskan bahwa konten di dalam tag <code>html</code> menggunakan bahasa
+            inggris ( <code>lang="en"</code> ). <code>en</code> pada attribut <code>lang</code> adalah nilai attribut
+            nilai tersebut dapat kita ganti sesuai kebutuhan. Masih banyak attribute yang dapat kita gunakan, kita akan
+            mempelajarinya nanti.
+          </p>
+
+          <h4>head & body</h4>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba(255%2C255%2C255%2C1)&t=one-dark&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=61px&wc=true&wa=true&pv=0px&ph=0px&ln=true&fl=1&fm=Source%20Code%20Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%253Chead%253E%250A%2520%2520%253C%252Fhead%253E%250A%250A%2520%2520%253Cbody%253E%250A%2520%2520%253C%252Fbody%253E%250A"
+            style="width: 142px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <p>
+            di dalam tag root <code>html</code> terdapat tag <code>head</code> dan <code>body</code>
+            kedua tag tersebut berada pada tingkatan yang sama yaitu berapa dalam tag pembungkus yang sama yaitu
+            <code>html</code>. konsep ini dapat kita artikan sebagai <b>Parent</b> (orang tua) dan <b>Child</b> (anak).
+            dimana <code>html</code> sebagai parent dari <code>head</code> dan <code>body</code> dan <code>head</code>
+            dan <code>body</code> menjadi child dari <code>html</code>. Munggkin akan sedikit membingungkan bukan? kita
+            akan pelajari konsep parent dan child pada materi berikutnya.
+          </p>
+          <p>
+            kedua tag tersebut memiliki fungsional yang berbeda. <br>
+            <code>head</code> digunakan untuk menampung informasi mengenai halaman dokumen, mulai dari
+            <code>title</code>, <code>meta</code>, <code>link</code>, dan lainnya. <br>
+            sedangkan <code>body</code> digunakan untuk menampung isi dari dokumen html yang akan di tampilkan pada
+            browser, berupa konten yang kita ingin tampilkan (text, gambar, video, dll).
+          </p>
+
+        </article>
+      </div>
+    </div>
+
+
+
+
+    <!-- navigation -->
+    <div class="row">
+      <div class="col-12 d-flex justify-content-between mt-5">
+
+        <a href="/pages/kelas/frontend/html/materi-html5.html" class="btn btn-danger"><span
+            class="fas fa-angle-double-left"></span> KEMBALI</a>
+        <a href="/pages/problem.html" class="btn btn-success">LANJUT <span class="fas fa-angle-double-right"></span></a>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <ui-footer></ui-footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <!-- AOS LIBRARY -->
+  <script src="/assets/script/index.js" type="module"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
