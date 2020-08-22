@@ -9,7 +9,7 @@ class UiFooter extends HTMLElement {
     <footer class="pt-5 pb-1 bg-dark-blue">
     <div class="container">
       <div class="row">
-        <div class="col-4 col-md-2">
+        <div class="col-3 col-md-2">
           <img src="/assets/img/kitaBisaKoding-txt.png" alt="" width="100%">
         </div>
         <div class="col-12 col-md-6 offset-0 offset-md-1 order-1 order-md-0 mt-5 mt-md-0">
@@ -23,21 +23,9 @@ class UiFooter extends HTMLElement {
         <div class="col-7 offset-1 offset-md-0 col-md-3">
           <div class="container">
             <div class="row">
-              <div class="col-4">
-                <a href="#">
-                  <img src="/assets/img/social-media/wa.png" alt="whatsapps" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="#">
-                  <img src="/assets/img/social-media/fb.png" alt="facebook" width="100%">
-                </a>
-              </div>
-              <div class="col-4">
-                <a href="https://instagram.com/kitabisakoding" target="_blank">
-                  <img src="/assets/img/social-media/ig.png" alt="instagram" width="100%">
-                </a>
-              </div>
+              
+
+
             </div>
           </div>
         </div>
@@ -56,3 +44,20 @@ class UiFooter extends HTMLElement {
 }
 
 customElements.define("ui-footer", UiFooter);
+
+{
+  /* <div class="col-4"></div>
+                  <a href="#">
+                    <img src="/assets/img/social-media/wa.png" alt="whatsapps" width="100%">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="#">
+                    <img src="/assets/img/social-media/fb.png" alt="facebook" width="100%">
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a href="https://instagram.com/kitabisakoding" target="_blank">
+                    <img src="/assets/img/social-media/ig.png" alt="instagram" width="100%">
+                  </a>           </div> */
+}

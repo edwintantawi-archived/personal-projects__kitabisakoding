@@ -5,3 +5,8 @@
 /* @import '/assets/style/part/main.css'; */
 @import '/assets/style/part/footer.css';
 @import '/assets/style/apps.css';
+
+.masukkelas,
+.masukkelas h2 {
+  color: white !important;
+}
