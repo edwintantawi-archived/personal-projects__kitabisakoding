@@ -34,8 +34,8 @@
       <div class="row justify-content-center pt-3 pt-sm-5">
         <section class="col-md-5 col-lg-5 order-2 text-center text-md-left" data-aos="fade-in" data-aos-duration="600">
           <h1 class="glow title mb-1 mb-md-2 ">Tingkatkan skill kamu bersama kami..</h1>
-          <h6 class="sub-title">Platform belajar koding yang dibuat agar mudah di pahami.</h6>
-          <a href="/pages/gateway/daftar.html" class="btn btn-warning"><q>START YOUR FUTURE
+          <h6 class="sub-title">Platform belajar koding yang dibuat agar mudah di pahami</h6>
+          <a href="/pages/kelas/kelas.html" class="btn btn-primary mt-0"><q>START YOUR FUTURE
               HERE</q></a>
         </section>
         <section class="col-5 col-lg-4 order-md-2 order-lg-2 mb-5 mb-md-0 d-none d-md-flex" data-aos="fade-in"
@@ -258,6 +258,32 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+
+
+  <!-- firebase -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCpbNkAGIQFmV1fNWMOxgRM67-03uQFQiA",
+      authDomain: "kitabisakoding-e4083.firebaseapp.com",
+      databaseURL: "https://kitabisakoding-e4083.firebaseio.com",
+      projectId: "kitabisakoding-e4083",
+      storageBucket: "kitabisakoding-e4083.appspot.com",
+      messagingSenderId: "324129295660",
+      appId: "1:324129295660:web:87c2dd97a3553f7a8df089",
+      measurementId: "G-D03MTLJH44"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
   </script>
 </body>
 

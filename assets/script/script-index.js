@@ -9,7 +9,7 @@ const bannerAds = document.querySelector('#ads');
 
 const userStatus = user => {
   if (user) {
-    bannerRegisterButton.classList.add('d-none');
+    // bannerRegisterButton.classList.add('d-none');
     bannerAds.classList.add('d-none');
   } else {
 
@@ -17,7 +17,7 @@ const userStatus = user => {
 }
 
 if (accountMode == false) {
-  bannerRegisterButton.classList.add('d-none');
+  // bannerRegisterButton.classList.add('d-none');
   bannerAds.classList.add('d-none');
 } else {
   userStatus(user);
