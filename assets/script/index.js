@@ -3,6 +3,7 @@ import './component/ui-navbar.js';
 import './component/ui-footer.js';
 import './component/banner-info.js';
 import './component/ui-syntax.js';
+import './component/ui-navigation.js';
 
 let user = false;
 
